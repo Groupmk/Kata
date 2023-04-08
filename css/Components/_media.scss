@@ -55,7 +55,7 @@
     
 }
 @media(min-width: 69rem){
-    .header__inner{
+    .header{
         display: none;
     }
     .services__inner{
@@ -91,7 +91,7 @@
 }
 @media(min-width: 90rem) and (max-width: 256rem){
     .container {
-        transform: translate(11rem, 0.6rem);
+        transform: translate(10rem, 0.6rem);
       }
       .burger{
         height: 100vh;
@@ -99,11 +99,14 @@
         position: absolute;
         left: -362px;
         top: -50px;
+        backdrop-filter: none;
       }
       .burger__menu{
         box-shadow: none;
         padding-top: 3rem;
+        padding-left: 3rem;
         width: 20.7rem;
+        left: 2rem;
       }
       .burger__btn{
         display: none;

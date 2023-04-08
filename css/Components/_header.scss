@@ -1,11 +1,16 @@
+.header{
+    border-bottom: solid #D9FFF5;
+    background-color: var(--white-color);
+    margin-bottom: 1.5rem;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    border-bottom: solid #D9FFF5;
-    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .header__logo{
     position: relative;
