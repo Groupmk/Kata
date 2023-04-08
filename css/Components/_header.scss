@@ -1,0 +1,35 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: solid #D9FFF5;
+    margin-bottom: 1.5rem;
+}
+.header__logo{
+    position: relative;
+}
+.header__logo::after{
+    content: "";
+    position: absolute;
+    border-right: solid var(--border-gray-color);
+    top: 0.6rem;
+    right: -0.9rem;
+    height: 1.9rem;
+}
+.header__buttons{
+    display: flex;
+}
+.header__btn-phone,
+.header__btn-chat ,
+.header__user{
+    display: none;
+}
+.header__btn-repair {
+    padding-right: 1rem;
+    
+}
+.burger{
+    display: none;
+}
